@@ -1,0 +1,20 @@
+<h2>Angular.js 4/2 an Sail.js</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>IdProduct</th>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let product of data">
+      <td>{{ product.IdProduct }}</td>
+      <td>{{ product.Id }}</td>
+      <td>{{ product.Name }}</td>
+      <td>{{ product.Price }}</td>
+    </tr>
+  </tbody>
+</table>
